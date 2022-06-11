@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 40%;
     height: 100vh;
 }
 
@@ -41,8 +41,9 @@ body {
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 50%;
     min-height: 34rem;
+    min-width: 26rem;
+    margin-top: 1.875rem;
 }
 
 .group {
@@ -57,39 +58,110 @@ body {
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 20rem;
 }
 
 .instagram-logo {
+    height: 3.5rem;
+    width: 50%;
+    margin-top: 2.25rem;
+    margin-bottom: 2.5rem;
+}
+
+input {
+    width: 20rem;
     height: 3rem;
+    background-color: #FAFAFA;
+    border-color: rgba(142, 142, 142, 0.1);
+    border-radius: 2px;
+    border-width: 1px;
+    margin-bottom: 5px;
 }
 
-.profile-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.profile-photo img {
-    height: 6rem;
+input::placeholder {
+    font-size: 1rem;
+    color: rgba(142, 142, 142);
+    margin-left: 5px;
+    padding: 5px;
 }
 
 .instagram-login {
     background-color: #0095f6;
-    color: #ffffff;
-    padding: 8px;
-    border-radius: 4px;
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.instagram-logout {
-    color: #0095f6;
-    margin-top: 1rem;
+.instagram-login a {
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+}
+
+.decoration h3 {
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+    margin: 0.8rem;
+}
+
+.decoration h3::after{
+    content: "";
+    background-color: rgba(142, 142, 142, 0.3);
+    height: 2px;
+    width: 7.7rem;
+    position: relative;
+    margin-left: 1.5rem;
+}
+
+.decoration h3::before{
+    content: "";
+    background-color: rgba(142, 142, 142, 0.3);
+    height: 2px;
+    width: 7.7rem;
+    position: relative;
+    margin-right: 1.5rem;
+}
+
+.loginfacebook {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.loginfacebook img {
+    width: 1.2em;
+    margin-right: 5px;
+}
+.group p {
+    color: #385185;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.senha p {
+    margin-top: 2rem;
 }
 
 .not-account {
     color: rgb(160, 160, 160);
+    display: flex;
+}
+
+.not-account p,
+.link-blue {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.link-blue {
+    margin-left: 5;
 }
 
 .link-blue {
@@ -102,7 +174,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0;
+    padding-top: 1.3rem;
 }
 
 .download {
@@ -110,7 +182,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .app-download {
