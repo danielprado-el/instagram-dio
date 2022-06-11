@@ -1,10 +1,11 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Olá :wave:
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Esse repositório contém o projeto de Clone da interface de login do Instagram! 
 
-### Os requisitos são:
+### :books: Foran usados os seguintes conhecimentos: :books:
 
 * [HTML básico](https://www.w3schools.com/html/)
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* (obs: o projeto foi realizado no intuito de desenvolver o uso do flexbox do CSS)
 
 ## 🚀 Let's code! 🚀
